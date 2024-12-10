@@ -9,4 +9,5 @@ gcc -S
 ## 生成bin
 -objcopy -O binary *.elf *.bin
 
+## 如何使用LD Script?
 
