@@ -23,7 +23,38 @@ MEMORY
 }
 
 SECTIONS{
+    .text : {
 
+    } > m_ocram
 
+    .init: {
+
+    } > m_ocram
+
+    .fini: {
+
+    } > m_ocram
+
+    .rodata : {
+
+    } > m_ocram
+
+    .data : {
+
+    } > m_ocram
+
+    .bss (NOLOAD) :{
+
+    } > m_ocram
+
+    .heap (NOLOAD) : {
+
+    }> m_ocram
+
+    .stack (NOLOAD):{
+
+    } > m_ocram
+
+    _end = .;
 }
 
