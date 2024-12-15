@@ -24,7 +24,11 @@ MEMORY
 
 SECTIONS{
     .text : {
-
+        . = ALIGN(4);
+        *(.text)        /* .text sections (code) */
+        *(.text*)       /* .text* sections (code) */
+        *(.rodata)      /* .rodata sections (constants, strings, etc.) */
+        *(.rodata*)     /* .rodata* sections (constants, strings, etc.) */
     } > m_ocram
 
     .init: {
