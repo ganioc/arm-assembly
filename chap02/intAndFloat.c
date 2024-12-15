@@ -10,6 +10,7 @@ int main(void){
 
     printf("The integer is %d, and the float is %f\n",
         anInt, aFloat);
+	printf("Hello\n");
 
     return 0;
 }

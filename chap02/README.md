@@ -18,6 +18,19 @@ $ gdb-multiarch
 
 ```
 
+## Used on Raspi 1B+ v1.2
+```shell
+gcc -g -Wall -o intAndFloat intAndFloat.c
+
+gcc -g -Wall -o echoChar echoChar.c
+
+# gcc -g -Wall -lwiringPi -o led led.c
+$ gcc -g -Wall -I/usr/local/include -L/usr/lib/ -o led led.c -lwiringPi
+
+
+```
+
+
 
 
 
