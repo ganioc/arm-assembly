@@ -8,4 +8,5 @@ cscope.po.out
 *.o 
 *.elf
 *.swp
+*.dwo
 

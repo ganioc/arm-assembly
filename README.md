@@ -5,7 +5,14 @@
 - dwarf, to test dwarf  
 - rpi, to learn the book, IntroCompOrg
 - elf-prj, to learn ELF file
+- gzip-1.12, to test arm assembly
 
+```shell
+CFLAGS="-O2" ./configure
+make
+CFLAGS="-O2 -g3" ./configure & make
+
+```
 
 
 

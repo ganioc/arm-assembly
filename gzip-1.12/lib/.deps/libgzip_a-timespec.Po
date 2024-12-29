@@ -1,0 +1,57 @@
+libgzip_a-timespec.o: timespec.c /usr/include/stdc-predef.h config.h \
+ timespec.h time.h /usr/include/time.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/bits/long-double.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/10/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/timesize.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /usr/include/arm-linux-gnueabihf/bits/time64.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timeval.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clock_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/time_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_tm.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timespec.h \
+ /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/endianness.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clockid_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/timer_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_itimerspec.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/locale_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h arg-nonnull.h
+/usr/include/stdc-predef.h:
+config.h:
+timespec.h:
+time.h:
+/usr/include/time.h:
+/usr/include/features.h:
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+/usr/include/arm-linux-gnueabihf/bits/long-double.h:
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+/usr/lib/gcc/arm-linux-gnueabihf/10/include/stddef.h:
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+/usr/include/arm-linux-gnueabihf/bits/timesize.h:
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+/usr/include/arm-linux-gnueabihf/bits/time64.h:
+/usr/include/arm-linux-gnueabihf/bits/timex.h:
+/usr/include/arm-linux-gnueabihf/bits/types/struct_timeval.h:
+/usr/include/arm-linux-gnueabihf/bits/types/clock_t.h:
+/usr/include/arm-linux-gnueabihf/bits/types/time_t.h:
+/usr/include/arm-linux-gnueabihf/bits/types/struct_tm.h:
+/usr/include/arm-linux-gnueabihf/bits/types/struct_timespec.h:
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+/usr/include/arm-linux-gnueabihf/bits/endianness.h:
+/usr/include/arm-linux-gnueabihf/bits/types/clockid_t.h:
+/usr/include/arm-linux-gnueabihf/bits/types/timer_t.h:
+/usr/include/arm-linux-gnueabihf/bits/types/struct_itimerspec.h:
+/usr/include/arm-linux-gnueabihf/bits/types/locale_t.h:
+/usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h:
+arg-nonnull.h:
