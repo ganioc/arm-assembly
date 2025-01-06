@@ -6,7 +6,10 @@
 - rpi, to learn the book, IntroCompOrg
 - elf-prj, to learn ELF file
 - gzip-1.12, to test arm assembly
+- bfd, to learn something about libbfd
 
+
+## compile some GNU software
 ```shell
 CFLAGS="-O2" ./configure
 make
